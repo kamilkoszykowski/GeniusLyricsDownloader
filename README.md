@@ -1,0 +1,22 @@
+# GeniusLyricsDownloader
+Java Lyrics Downloader for genius.com
+
+!!! IMPORTANT !!!
+IN ORDER OF CORRECT PROGRAM WORKING MAKE SURE YOUR FILES HAVE CORRECT artist AND title TAGS. IF FILE NOT HAVE TAGS NAME IT LIKE THIS: "Artist - title".
+
+[JAR RUN INSTRUCTIONS]
+1. DOWNLOAD JARS FROM "\JARS" IN PROJECT DIRECTORY. 
+2. FOR "GLD-Artist.jar" FOLLOW STEPS "A" FROM IMGUR LINK, FOR "GLD-Present.jar" FOLLOW "B" STEPS.
+IMGUR: https://imgur.com/gallery/uRcUzS4
+
+[IDE RUN INSTRUCTIONS]
+1. IMPORT PROJECT.
+2. IN RUN SETTINGS SET ARGUMENTS LIKE IN TUTORIAL FROM IMGUR.
+IMGUR: https://imgur.com/gallery/uRcUzS4
+
+[IDE JAR BUILD INSTRUCTIONS]
+1. SET <MainClass> IN maven-assembly-plugin IN pom.xml TO NAME OF CLASS WHICH YOU WANT TO BUILD. 
+2. USE "mvn package" command OR FROM MAVEN MENU SELECT "install" 
+
+
+
